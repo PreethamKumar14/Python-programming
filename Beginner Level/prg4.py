@@ -1,8 +1,5 @@
-x=input()
-print(x)
-if (x>'A'):
-    print ("Alphabet")
-elif (x>'a'):
-    print ("Alphabet")
+n=input()
+if n.isalpha():
+	print('alphabet')
 else:
-    print ("No")
+	print('not alphabet')
