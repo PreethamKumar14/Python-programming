@@ -1,8 +1,8 @@
 x=input()
 print(x)
 if (x>'A'):
-    print ("alphabet")
+    print ("Alphabet")
 elif (x>'a'):
-    print ("alphabet")
+    print ("Alphabet")
 else:
-    print ("not alphabet")
+    print ("No")
