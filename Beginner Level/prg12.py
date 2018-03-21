@@ -1,10 +1,10 @@
 a=int(raw_input())
 if(a<=1000):
-    temp=a
+        temp=a
 	x=0
 	while(temp!=0):
-        x=x*10+(temp%10)
-        temp=(temp/10)
+        	x=x*10+(temp%10)
+        	temp=(temp/10)
 	if(x==a):
 	  	print("Palindrome")
 	else:
